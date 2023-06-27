@@ -1,0 +1,1168 @@
+*{margin:0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+/*Header*/
+#encabezado{
+    background-color: rgb(152, 94, 199);
+    margin: 0;
+    width: 100%;
+    height: 100px;
+}
+#logo{
+    width: 30%;
+    height: 50px;
+}
+#taylor{
+    height: 30px;
+    padding: 20px;
+}
+#info{
+    width: 300px;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: -40px;
+    right: 90px;
+}
+.info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 20px;
+    float: right;
+    padding: 10px;
+    font-size: 0.8em;
+    color: white;
+}
+#encabezado #info a:link, #encabezado #info a:visited{color:white;text-decoration: none;}
+#encabezado #info a:hover{color:rgb(207, 174, 235);}
+#carro{
+    color: white;
+    position: absolute;
+    top: 11px;
+    right: -65px;
+}
+#encuesta{
+    color: white;
+    position: absolute;
+    top: 11px;
+    right: -25px;
+}
+#encabezado nav{
+    height: 50%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:-50px;
+}
+#encabezado nav ul{
+    list-style: none;}
+#encabezado nav ul li{
+    float: left; 
+    padding: 20px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#encabezado nav ul li a:link, #encabezado nav ul li a:visited{color:white;text-decoration: none;}
+#encabezado nav ul li a:hover{color:rgb(207, 174, 235);}
+/*form*/
+#encabezado2{
+    background-color: rgb(152, 94, 199);
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}
+#encabezado2 #info a:link, #encabezado2 #info a:visited{color:white;text-decoration: none;}
+#encabezado2 #info a:hover{color:rgb(207, 174, 235);}
+/*encuestas*/
+#fondito{
+    background-image: url(3199982.jpg);
+}
+#encuesta{
+    color: white;
+    position: absolute;
+    top: 11px;
+    right: -25px;
+}
+#bannerE{
+    width: 100%;
+    height: 700px;
+    background-image: url(Formularios/fondo1.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+#contenedorForm1{
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+#contenedorForm1 h1{
+    text-align: center;
+    background-color: rgba(42, 8, 46, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 1.5em;;
+    position: absolute;
+    top: 150px;
+    left: 40%;
+}
+.form{
+    width: 50%;
+    padding: 20px;
+    margin:0 auto;
+    font-size: 1.2em;
+    color:white;
+    background-color: rgba(79, 21, 87, 0.8);
+    margin: 0 auto;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+.form button{
+    padding: 5px;
+    margin-top: 5px;
+    color: rgb(152, 94, 199);
+    background-color: rgb(232, 172, 240);
+}
+#bannerE2{
+    width: 100%;
+    height: 700px;
+    background-image: url(Formularios/fondo2.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+#contenedorForm2{
+    width: 100%;
+    padding-top: 20px;
+    height: 0px;
+}
+.form2{
+    width: 55%;
+    padding: 20px;
+    margin:0 auto;
+    font-size: 1.2em;
+    color:white;
+    background-color: rgba(79, 21, 87, 0.8);
+    margin: 0 auto;
+    position: relative;
+    top: -650px;
+    left: 25px;
+}
+.form button{
+    padding: 5px;
+    margin-top: 5px;
+    color: rgb(152, 94, 199);
+    background-color: rgb(232, 172, 240);
+}
+body{
+    width: 100%;
+}
+/*login*/
+.login{
+    width: 250px;
+    height: 80px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(79, 21, 87, 0.8);
+    margin: 0 auto;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+.login button{
+    padding: 5px;
+    margin-top: 5px;
+    color: rgb(152, 94, 199);
+    background-color: rgb(232, 172, 240);
+}
+/*registro*/
+.registro{
+    width: 300px;
+    height: 100px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(79, 21, 87, 0.8);
+    margin: 0 auto;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+.registro button{
+    padding: 5px;
+    margin-top: 5px;
+    color: rgb(152, 94, 199);
+    background-color: rgb(232, 172, 240);
+}
+#contenedorRegistro{
+    height: 100%;
+}
+/*inicio*/
+#banner{
+    width: 100%;
+    height: 700px;
+    background-image: url(Inicio/eras_fondo.jpg);
+    background-size: cover;
+}
+body{
+    width: 100%;
+}
+#productos{
+    width: 100%;
+    margin:0 auto;
+    margin-top: 50px;
+    height: 500px;
+    background-color: rgb(10, 1, 19);
+}
+#productos h1{
+    color: white;
+    padding-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: lighter;
+}
+#contenedor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;}
+.producto{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(113, 73, 138);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10%;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.producto h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.fotosI{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(229, 207, 248);
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#accesoriosI{width: 200px; height: 200px; 
+    position: absolute;
+    left: -10px;}
+#albumI{
+    width: 180px; height: 180px; 
+    position: absolute;
+    left: 10px;top: 10px;}
+    
+#remeraI{
+    width: 250px; height: 250px; 
+    position: absolute;
+    left: -25px;
+    top:-25px}
+#productos h5{
+    width: 50%;
+    height: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color:rgb(10, 1, 19);
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+#productos h5 a:link, #productos h5 a:visited{color:white;text-decoration: none;}
+#productos h5 a:hover{color:rgb(207, 174, 235);}
+.producto{
+    padding: 30px;
+}
+.producto p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#contenedor1{
+    width: 100%;
+    height: 750px;
+    background-color: white;
+}
+#bannertotal{
+    width: 100%;
+    height: 100%;
+    background-image: url(3199982.jpg);
+}
+#staff{
+    width: 100%;
+    height: 500px;
+    margin: top 50px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+#titulo{
+    position: absolute;
+    text-align: center;
+    font-weight: lighter;
+    color:rgb(10, 1, 19);
+    font-size: 2em;
+    top:60px;
+}
+.staff{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(113, 73, 138);
+    float: left;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    top:50px;
+    border-radius: 10%;
+}
+.staff h3{
+    font-weight: lighter;
+}
+.staff img{
+    padding: 10px;
+}
+/*accesorios*/
+.fondoAccesorios{
+    background-image: url(Accesorios/Img/Fondo.jpg);
+}
+#contenedor-productos{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#accesorios{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #523B51;
+}
+.productos3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.producto3{
+    width: 280px;
+    height: 350px;
+    margin: 20px;
+    background-color: rgba(79, 21, 87, 0.5);
+}
+.foto3{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    margin: 10px;
+}
+#taza{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 8px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#vaso{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#pulsera{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 25px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#gorro{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -8px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#botella{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -5px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#bolso{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -10px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#bandana{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -13px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#estuche{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+
+.producto3 h5{padding-top: 5px;}
+.producto3 h6{
+    font-size: 1em;
+    width: 155px;
+    height: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background-color:rgb(10, 1, 19);
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding-top:3px ;
+}
+.productos3 h6 a:link, .productos3 h6 a:visited{color:white;text-decoration: none;}
+.productos3 h6 a:hover{color:rgb(207,174,235);}
+.producto3:hover img{
+    transform: scale(1.2);
+}
+/*remeras*/
+.fondoRemeras{
+    background-image: url(3199982.jpg);
+}
+#contenedor-productos4{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#remeras{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #523B51;
+}
+.productos4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.remera{
+    width: 280px;
+    height: 350px;
+    margin: 20px;
+    background-color: rgba(79, 21, 87, 0.5);
+}
+.foto4{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    margin: 10px;
+}
+#debut4{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -6px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#album4{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -9px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#pijama_folklore{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#loverRem{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#remera_fearless{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#redRem{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -8px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#karma{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#reputacion{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -5px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#eras_tour{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#remeron4{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#fearless_pijama{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#remeron_ts{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+.remera h5{padding-top: 5px;}
+.remera h6{
+    font-size: 1em;
+    width: 155px;
+    height: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background-color:rgb(10, 1, 19);
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding-top:3px ;
+}
+.remera h6 a:link, .remera h6 a:visited{color:white;text-decoration: none;}
+.remera h6 a:hover{color:rgb(207,174,235);}
+.remera:hover img{
+    transform: scale(1.2);
+}
+/*buzos*/
+.fondoBuzos{
+    background-image: url(Buzos/Img/Fondo.jpg);
+}
+#contenedor-productos2{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#buzos{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #523B51;
+}
+.productos2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.buzo{
+    width: 280px;
+    height: 350px;
+    margin: 20px;
+    background-color: rgba(79, 21, 87, 0.5);
+}
+.foto2{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    margin: 10px;
+}
+#fearlessBuzo{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#redBuzo{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#celeste{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#reputationBuzo{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#loverBuzo{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -6px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#karma{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -6px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#corazon{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -6px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+#sueter{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color: aliceblue;
+}
+.buzo h5{padding-top: 5px;}
+.buzo h6{
+    font-size: 1em;
+    width: 155px;
+    height: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background-color:rgb(10, 1, 19);
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding-top:3px ;
+}
+.buzo h6 a:link, .buzo h6 a:visited{color:white;text-decoration: none;}
+.buzo h6 a:hover{color:rgb(207,174,235);}
+.buzo:hover img{
+    transform: scale(1.2);
+}
+ /*albumes*/
+#fondito1{
+    width: 100%;
+    background-image: url(3199982.jpg);
+}
+#albumes{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #523B51;
+    margin-bottom: 20px;
+}
+#fondo1{
+    width: 100%;
+    height: 600px;
+    background-image: url(Albumes/debut_fondo.webp);
+    background-size: cover;
+}
+#descripcion1 h1{
+    background-color: rgb(29, 126, 126);
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#fondo2{
+    width: 100%;
+    height: 600px;
+    background-image: url(Albumes/fearless.jpg);
+    background-size: cover;
+}
+#descripcion2 h1{
+    background-color: #AE884A;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#fondo3{
+        width: 100%;
+        height: 600px;
+        background-image: url(Albumes/speaknow_fondo.webp);
+        background-size: cover;
+}
+#descripcion3 h1{
+    background-color: #6B3073;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#descripcion4 h1{
+    background-color: #B00F05;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#descripcion5 h1{
+    background-color: #B1989E;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#descripcion6 h1{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#descripcion7 h1{
+    background-color: #F2A7CA;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#descripcion8 h1{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#descripcion9 h1{
+    background-color: #5a3212;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#descripcion10 h1{
+    background-color: #0F0140;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#fondo4{
+    width: 100%;
+        height: 600px;
+        background-image: url(Albumes/Red.jpg);
+        background-size: cover;
+        background-position: center;
+}
+#fondo5{
+    width: 100%;
+        height: 600px;
+        background-image: url(Albumes/1989.jpg);
+        background-size: cover;
+}
+#fondo6{
+    width: 100%;
+    height: 600px;
+    background-image: url(Albumes/reputation.jpg);
+    background-size: cover;
+}
+#fondo7{
+    width: 100%;
+    height: 600px;
+    background-image: url(Albumes/lover.jpg);
+    background-size: cover;
+    }
+#fondo8{
+    width: 100%;
+        height: 600px;
+        background-image: url(Albumes/folklore.webp);
+        background-size: cover;
+        background-position: center;
+}
+#fondo9{
+    width: 100%;
+    height: 600px;
+    background-image: url(Albumes/ever.jpg);
+    background-size: cover;
+}
+#fondo10{
+    width: 100%;
+    height: 600px;
+    background-image: url(Albumes/midnights.jpg);
+    background-size: cover;
+}
+.productos1{
+    width: 90%;
+    height: 400px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.productoAlbum{
+    width: 280px;
+    height: 350px;
+    margin: 10px;
+    background-color: rgba(79, 21, 87, 0.5);
+}
+.fotitos{
+    width: 180px;
+    padding-top: 17px;
+}
+#deluxe{
+    width: 250px;
+}
+.texto{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 8px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+#debut_deluxe{
+    position:relative;
+    bottom: -30px;
+}
+#debut_remera{
+    position: relative;
+    bottom:-4px;
+}
+.fotitosF{
+    width: 250px;
+    padding-top: 15px;
+}
+#cdF{
+    width: 180px;
+    padding-top: 15px;
+}
+.textocdF{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.textovF{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 19px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.textoF{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 26px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.productos1 h5{
+    padding-top: 7px;
+}
+.productos1 h6{
+    font-size: 1em;
+    width: 155px;
+    height: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background-color:rgb(10, 1, 19);
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding-top:3px ;
+}
+.productos1 h6 a:link, .productos1 h6 a:visited{color:white;text-decoration: none;}
+.productos1 h6 a:hover{color:rgb(207, 174, 235);}
+.textopF{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 3px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.fotitos_sn{
+    width: 250px;
+    padding-top: 10px;
+}
+#sn_especial{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.fotitosR{
+    width: 200px;
+    padding-top: 10px;
+}
+.textovR{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 22px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.textoR{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -5px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.fotitosE{
+    width: 260px;
+    padding-top: 20px;
+}
+.textovE{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 28px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.textov{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: 4px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.fotitosM{
+    width: 200px;
+    padding-top: 10px;
+}
+.textovM{
+    padding-top: 21px;
+    padding-left: 20px;
+    margin-top: -5px;
+    width: 260px;
+    height: 120px;
+    background-color: rgba(31, 1, 31, 0.7);
+    text-align: left;
+}
+.productoAlbum:hover img{
+    transform: scale(1.2);
+}
+footer{
+    background-color: rgb(152, 94, 199);
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;}
+footer p{
+    color:white;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+}
+footer h6{
+    color: white;
+    position:absolute;
+    top: 60px;
+    margin: 0 auto;
+}
+footer a{
+        color: white;}
