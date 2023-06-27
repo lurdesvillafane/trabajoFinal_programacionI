@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Centurión,Rocio Nazareth">
+    <meta name="author" content="Villafañe Cabana, Lurdes Anahi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c:\Users\Lurdes\OneDrive\Documentos\LDYPM\2do año\Programacion I\Trabajo Final - Centurion y Villafañe\estilos.css">
+    <script src="https://kit.fontawesome.com/c5a0bda5a6.js" crossorigin="anonymous"></script>
+    <title>Encuesta</title>
+</head>
+<body>
+    <header>
+        <section id="encabezado2">
+            <div id="logo">
+                <a href="../Inicio/index.html"><img id="taylor" src="../Inicio/Logo en blanco.png"></a>
+            </div>
+            <div id="info">
+                    <p><a href="../Formularios/encuesta.html#encuesta"><i class="fa-solid fa-clipboard-list" id="encuesta"></a></i></p>
+                    <h6 class="info"><a href="../Formularios/login.html">INICIAR SESIÓN</a></h6>
+                    <h6 class="info"><a href="../Formularios/registro.html">CREAR CUENTA</a></h6>
+                    <p><a href="#"><i class="fa-solid fa-cart-shopping" id="carro"></i></a></i></p>
+            </div>
+        </section>    
+    </header>
+    <section id="fondito">
+        <section id="contenedorFondo1">
+            <div id="bannerE"></div>
+        </section>
+        <section id="contenedorForm1">
+            <h1>Encuesta al publico</h1>
+                <div class="form"> 
+                    <form action="encuesta.html" method="post">
+                        <div>
+                            <a name="encuesta"><label for="nombre">Nombre: </label></a>
+                        <input type="text" placeholder="Nombre completo" name="nombre" size="50" maxlength="20" id="nombre" required="required">
+                        <br>
+                        <label>Email: </label>
+                        <input type="text" placeholder="Email" name="mail" size="50" maxlength="25" id="mail" required="required">
+                        <br>
+                        </div>
+                        <div>
+                            <label for="cliente">¿Ud es un cliente frecuente?</label>
+                            <input type="radio" name="cliente" value="Si" checked><span>Si</span>
+                            <input type="radio" name="cliente" value="No" checked><span>No</span>
+            
+                        </div>
+                        <div>
+                            <label for="cliente">¿Cuantos pregunta2 ha adquirido?</label>
+                            <input type="radio" name="pregunta2" value="muchos" checked><span>Muchos</span>
+                            <input type="radio" name="pregunta2" value="pocos" checked><span>Pocos</span>
+                            <input type="radio" name="pregunta2" value="mPocos" checked><span>Muy pocos</span>
+            
+                        </div>
+                        <div>
+                            <label for="cantidad">Elija la cantidad de pregunta2:</label>
+                            <select name="cantidad" id="cantidad">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="tecno">¿Como clasificarias la atención?</label>
+                            <input type="radio" name="atencion" id="mala" value="mala" checked><span>Mala</span>
+                            <input type="radio" name="atencion" id="buena" value="buena" checked><span>Buena</span>
+                            <input type="radio" name="atencion" id="mBuena" value="mBuena" checked><span>Muy Buena</span>
+                            <input type="radio" name="atencion" id="excelente" value="excelente" checked><span>Excelente</span>
+                        </div>
+                            <label> Recomendaciones para la empresa: </label> <br>
+                            <textarea type="text" placeholder="Detalle sus recomendaciones" name="textarea" rows="10" cols="50" maxlength="240"></textarea>
+                        <br>
+                        <button type="submit" onclick="validar ()">Enviar</button>
+                    </form>
+                </div>
+        </section>
+        <section id="contenedorFondo2">
+            <div id="bannerE2"></div>
+        </section>
+        <section id="contenedorForm2">
+                <div class="form2"> 
+                    <form action="encuesta.html" method="post">
+                        <div>
+                            <a name="encuesta"><label for="nombre">Nombre: </label></a>
+                        <input type="text" placeholder="Nombre completo" name="nombre" size="50" maxlength="20" id="nombre2" required="required">
+                        <br>
+                        <label>Email: </label>
+                        <input type="text" placeholder="Email" name="mail" size="50" maxlength="25" id="mail" required="required">
+                        <br>
+                        </div>
+                        <div>
+                            <label for="pregunta2">¿Encontro todo lo que buscaba?</label>
+                            <input type="radio" name="pregunta1" value="Si" checked><span>Si</span>
+                            <input type="radio" name="pregunta2" value="No" checked><span>No</span>
+            
+                        </div>
+                        <div>
+                            <label for="pregunta2">¿Donde suele comprar nuestros productos?</label>
+                            <input type="radio" name="pregunta2" value="muchos" checked><span>Online</span>
+                            <input type="radio" name="pregunta2" value="pocos" checked><span>Tienda fisica</span>
+                            <input type="radio" name="pregunta2" value="mPocos" checked><span>Por telefono</span>
+            
+                        </div>
+                        <div>
+                            <label for="pregunta3">¿Seguiria utilizando nuestro productos?</label><br>
+                            <input type="radio" name="atencion" id="excelente" value="excelente" checked><span>Es muy probable</span>
+                            <input type="radio" name="atencion" id="mala" value="mala" checked><span>Es probable</span>
+                            <input type="radio" name="atencion" id="buena" value="buena" checked><span>Es poco probable</span>
+                            <input type="radio" name="atencion" id="mBuena" value="mBuena" checked><span>No es probable</span>
+                            
+                        </div>
+                        <div>
+                            <label for="pregunta4">¿Cual es el producto que más compra?</label>
+                            <select name="cantidad" id="cantidad">
+                                <option>Remeras</option>
+                                <option>Accesorios</option>
+                                <option>Buzos</option>
+                                <option>Albumes</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+                            <label> Recomendaciones para la empresa: </label> <br>
+                            <textarea type="text" placeholder="Detalle sus recomendaciones" name="textarea" rows="10" cols="50" maxlength="240"></textarea>
+                        <br>
+                        <button type="submit" onclick="validar ()">Enviar</button>
+                    </form>
+                </div>
+        </section>
+    </section>
+    <footer>
+        <p><a href="#"><i class="fa-brands fa-facebook" ></i></a></p>
+        <p><a href="#"><i class="fa-brands fa-instagram"></i></a></p>
+        <p><a href="#"><i class="fa-solid fa-envelope" ></i></a></p>
+        <p><a href="https://goo.gl/maps/qBPB1ypc4GRun1sT9"><i class="fa-solid fa-location-dot"></i></a></p>
+        <h6>Copyright © 2023 Taylor Swift | All rights reserved</h6>
+    </footer>
+</body>
+</html>
